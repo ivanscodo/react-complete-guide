@@ -84,10 +84,10 @@ class App extends Component {
     }
 
     return (
-      <div>
-        <button onClick={this.hidePersons}>Show/hide persons</button>
-          {persons}
-      </div>
+        <div>
+          <button onClick={this.hidePersons}>Show/hide persons</button>
+            {persons}
+        </div>
     );
   }
 }
